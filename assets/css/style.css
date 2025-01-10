@@ -8,7 +8,7 @@
 
 #left{
     width: 240px;
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     height: 335px;
     border: 2px solid #000;
 }
@@ -27,4 +27,106 @@
     height: 335px;
     background-color: rgb(0, 0, 106);
     border: 2px solid #000;
+}
+
+#vierkantrechts{
+    width: 96px;
+    height: 96px;
+    background-color: white;
+    margin-left: 20px; 
+    margin-top: 30px;
+}
+
+#kleinblauwvierkantje{
+    width: 20px;
+    height: 20px;
+    background-color: #00006B;
+    margin-left: 20px; 
+    margin-top: -96px;
+}
+#thynehoudtvanfemboysvierkantje{
+    width: 480px;
+    height:240px;
+    background-color: white;
+}
+#onderzijdebalk{
+    width: 480px;
+    height: 35px;
+    margin-right: 10px;
+    background-color: #0416A2;
+}
+#klok{    
+    width:195px;
+    height:195px;
+    background-color: white;
+    border-radius: 50% ;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#spoor{
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: -20px;
+}
+#nummer{
+font-size: 48px;
+margin-left: 40px;
+margin-top: 10px;
+color: #0e54ce;
+font-weight: bolder;
+}
+#hierna{
+    margin-top: -30px;
+    font-size: 18px;
+    color: white;
+    
+}
+#logo img  {
+    position: absolute;
+    top: 6%;
+    Left: 61%;
+    width: 100px;
+
+}
+#klok img{
+    position: absolute;
+    top: 2%;
+    left: 23%;
+    width: 230px;
+}
+#intercity{
+    font-size: 40px;
+    margin-left: 220px;
+    margin-top: -265px;
+    color: #00006B;
+    font-weight: bold;
+}
+#vijf{
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 48px;
+    color: #00006B;
+    font-weight: bold;
+}
+#vertrektijd { 
+ margin-left: 10px; 
+ margin-top: -100px;
+ font-size: 48px; 
+ color: #00006B; 
+ font-weight: bold; 
+} 
+#tussenstoppen{
+    color: #00006B;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+#time {
+    
+    margin-left: 10px;
+    margin-top: -125px;
+    font-size: 35px;
+    color: #00006B;
+    font-weight: bold;
 }
