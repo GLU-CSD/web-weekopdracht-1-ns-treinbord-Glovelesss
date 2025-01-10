@@ -10,6 +10,7 @@
     <div id="container">
         <div id="left">
            <div id ="klok"><img src="assets/img/hey_capser.png" alt=""></div>
+           <div id="clock">ja</div>
         </div>
         <div id="middle">
            <div id="thynehoudtvanfemboysvierkantje"></div>
@@ -20,6 +21,7 @@
            <div id="vijf">Groningen</div>
            <div id="tussenstoppen">Via Amersfoort Centraal, Zwolle, Assen</div>
            <div id="time">1 minuut</div>
+           
         </div>
         <div id="right">
            
@@ -27,6 +29,8 @@
             <div id="kleinblauwvierkantje"></div>
             <div id ="spoor">Spoor</div>
             <div id ="nummer">26</div>
+          
+
         </div>
 <script>
 const interval = setInterval(function() {
@@ -35,6 +39,7 @@ const interval = setInterval(function() {
                 const now = new Date ();
                 const hours = String(now.getHours()).padStart(2,"0");
                 const minutes = String(now.getHours()).padStart(2,"0");
+                const seconds = String(now.getSeconds()).padStart(2,"0");
                 document.getElementById("time").innerHTML = hours + ":" + minutes;
 
             }else {
@@ -42,7 +47,17 @@ const interval = setInterval(function() {
             }
         },5000);
 
-
+        let clock = () => {
+            console.log("test  ")
+            let date = new Date();
+            let hours = date.getHours();
+            let minutes = date.getMinutes();
+            let seconds = date.getSeconds();
+            let time = `${hours}:${minutes}:${seconds}`
+            document.getElementById("clock").innerText = time;
+            setTimeout(clock,1000);
+        }
+        clock();
 </script>
         </body>
 </html>
